@@ -44,7 +44,7 @@ img{
     position: absolute;
     left: 0;
     bottom: -8px;
-    background: #008796;
+    background: #f4ebe2;
     transition: 0.5s;
 }
 .navbar ul li:hover::after{
@@ -67,13 +67,13 @@ img{
     font-weight: 100;
     line-height: 25px
 }
-button{
+#button1{
     width: 20%;
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
     border-radius: 25px;
-    border: 2px solid #008796;
+    border: 2px solid #f4ebe2;
     font-weight: bold;
     border-radius: 25px;
     background: transparent;
@@ -83,7 +83,7 @@ button{
     overflow: hidden;
 }
 span{
-    background-image: linear-gradient(#008796,#fff,#008796);
+    background-image: linear-gradient(#e4d4c7,#f4ebe2,#e4d4c7);
     height: 100%;
     width:0%;
     border-radius: 25px;
@@ -92,10 +92,10 @@ span{
     bottom: 0;
     z-index: -1;
 }
-button:hover span{
+#button1:hover span{
     width: 100%;
     
 }
-button:hover{
+#button1:hover{
     color: black;
 }
