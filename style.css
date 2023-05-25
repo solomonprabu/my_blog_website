@@ -136,6 +136,7 @@ img {
 .grid {
   display: grid;
   width: auto;
+  padding: 10px;
   grid-gap: 3rem;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   align-items: start;
