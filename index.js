@@ -14,7 +14,7 @@ function readMore_1() {
     readMore_btn.innerHTML = "Read more";
     more.style.display = "none";
   } else {
-    dots.style.display = "none";
+    dots.style.display != "none";
     readMore_btn.innerHTML = "Read less";
     more.style.display = "inline";
   }
@@ -30,7 +30,7 @@ function readMore_2() {
     readMore_btn.innerHTML = "Read more";
     more.style.display = "none";
   } else {
-    dots.style.display = "none";
+    dots.style.display != "none";
     readMore_btn.innerHTML = "Read less";
     more.style.display = "none";
   }
